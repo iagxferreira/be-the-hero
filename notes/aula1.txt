@@ -1,0 +1,58 @@
+aplicativo FIGMA como alternativa ao adobe XD
+
+
+backend
+regras de negócio
+conexão com o banco de dados
+envio de e-mail
+comunicação com webservices
+autenticação
+criptografia e segurança
+
+
+API RESTFull
+--> padrões sobre métodos, tipos de parâmetros para que a API seja RESTfull
+
+package.json
+vai armazenar informações sobre o projeto tanto backend, frontend ou mobile
+
+
+framework express
+microframework -> poucas ferramentarm  
+
+npm install express
+
+toda a aplicação ficará no index.js
+
+para executar a aplicação
+
+node index.js
+
+
+abordagem tradicional cada requisição retorna o conteúdo completo
+limitando o aplicativo ao browser já que o aplicativo não vai saber
+ interpretar o html
+
+
+SPA -> single-page application
+
+carregamento serverside
+
+a página nunca rcarrega, otimizando a performance e dando vida ao conceito
+de SPA, retornando apenas o JSON e podendo ter quantos frontend quisermos
+
+as rotas serão controladas pelo frontend, pelo próprio react
+
+não precisa ir até o backend fazer uma requisição
+
+as rotas nao precisam realizar novas requisições, otimizando performance
+
+npx create-react-app frontend
+
+depois de criar a pasta do frontend
+
+entrar nela e dgitar npm start
+
+
+framework expo
+abstrai os sdks e outras dependencias de instalação

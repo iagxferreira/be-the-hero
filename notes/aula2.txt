@@ -1,0 +1,103 @@
+salva o nodemon como uma biblioteca de desenvolvimento
+npm install nodemon -D
+
+alterar em package.json em scripts
+
+adicionar a chave
+
+"start" : "nodemon index.js"
+
+
+e agora é só começar a executar o programa com 
+npm start
+
+
+instalando o query builder -> knex
+
+npm install knex
+
+
+instalando driver do banco de dados
+npm install sqlite3
+
+
+
+npx server para executar um pacote, não instalar
+npx knex init
+
+
+começando a modularizar o projeto
+criação da pasta src para separar as camadas da aplicação
+deixar as rotas em um arquivo separado
+
+modificar o nodemon pra rodar src/index.js
+
+criar uma pasta para databases também é recomendado
+e alterar no knex o caminho do banco de dados setando para dentro da pasta
+
+entidades: tudo o que representa algo que vai ser salvo no banco de dados
+	* tudo o que representa um registro
+
+ong -> vai fazer login, registrar casos..
+
+incident -> a ong vai cadastrar casos, devemos registrar esses casos
+
+funcionalidades:
+login da ong
+logout da ong
+cadastro da ong
+cadastrar novos casos
+deletar casos
+listar casos especificos de uma ong
+listar todos os casos
+entrar em contato via whatsapp ou email
+
+
+migrations do knex -> controle de versão do banco de dados
+faz a atualização das planilhas
+
+criando a primeira migration
+criar uma pasta dentro da pasta de databases com o nome migrations
+
+criar opção dentro do do knex development
+
+rodar
+npx migrate:make <nome da migration>
+
+
+depois de fazer alterações na migration, executar
+npx knex migrate:run
+
+e entao executar a migration
+npx knex migrate:latest
+
+com a migration create_ongs criada, vamos á create_incidents
+criando migration de incidentes
+
+
+desfazendo a ultima migration
+npx knex migrate:rollback
+
+npx knex migrate:status
+
+
+modularizar a conexão, criando um arquivo separado para fazer a
+conexão com o banco de dados
+
+
+funçoes async e await
+vai executar sem blockear, esperando a resposta da função
+antes de retornar
+
+
+adicionando o modulo cors
+npm install cors
+
+módulo que decide quem pode ou não acessar a aplicação
+passando um objeto com os parametros por exemplo
+
+{
+	origin: <endereço>
+}
+
+sem parâmetros permite que todas as aplicações acessem a API
