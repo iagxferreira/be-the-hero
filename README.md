@@ -10,7 +10,7 @@ Feito em Node, React e React Native
 - [x] Aula 2 - Criando a base da aplicação 
 
       Desenvolvimento do backend
-      Bônus: Desenvolvimento de script básico (em Python) de teste da API
+      Bônus: Desenvolvimento de script básico (em Python) de teste da API (backend/src/test)
       Bônus: Adição das anotações (pasta Notes)
 
 - [ ] Aula 3 - Construindo interface Web
