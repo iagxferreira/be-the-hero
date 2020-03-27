@@ -1,0 +1,3 @@
+deletando as coisas descenessárias
+deletando o readme de dentro do frontend
+deixar somente index.js e app.js
