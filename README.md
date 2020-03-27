@@ -8,12 +8,12 @@ Feito em Node, React e React Native
       Conhecimento sobre qual app desenvolveriamos durante a semana
 
 - [x] Aula 2 - Criando a base da aplicação 
-
-      Desenvolvimento do backend
+      Desenvolvimento do backend em NodeJS
       Bônus: Desenvolvimento de script básico (em Python) de teste da API (backend/src/test)
       Bônus: Adição das anotações (pasta Notes)
 
-- [ ] Aula 3 - Construindo interface Web
+- [X] Aula 3 - Construindo interface Web
+      Desenvolvimento front end em React
 
 - [ ] Aula 4 - Desenvolvimento do app mobile
 

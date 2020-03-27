@@ -6,8 +6,9 @@ const routes = require('./routes');
 //criando a aplicação
 const app = express();
 
+const cors = require('cors')
 //define quem pode ou não acessar a API
-app.use (cors());
+app.use(cors());
 //setando o express pra trabalhar com JSON
 app.use(express.json());
 

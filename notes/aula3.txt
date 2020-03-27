@@ -1,3 +1,76 @@
 deletando as coisas descenessárias
 deletando o readme de dentro do frontend
 deixar somente index.js e app.js
+
+apagar tudo na pasta public exceto o index.html e o favicon
+
+apagar metatags do index.html
+
+no react quando a gente cria um componente ele pode ser renderizado
+da mesma maneira que inserimos uma tag
+
+por isso o <App/>
+
+geralmente esse componente começa com a letra maiúscula
+
+component é uma função que retorna html
+
+um arquivo js que gera html chama
+
+JSX que é html integrado com JS
+
+passando as props como parametro na função eu consigo 
+usar ela de maneira dinâmica
+
+quando recebo um array posso utilizar { } para selecionar
+o que eu quero ou nao
+
+
+estado: sempre que o estado for alterado o react recarrega o componente em tela
+
+useState não pode ser alterada diretamente
+usestate retorna um array de duas posições, com uma variável e uma função
+para alterar o valor 
+
+sempre que alterações forem necessárias, nao usaremos variáveis comuns
+usaremos estados
+
+package icons
+
+material icons
+font awesome
+feather icons
+
+npm install react-icons
+
+no react escrevemos className para referenciar as classes 
+porque no JS Class é uma palavra reservada
+
+
+configurando as rotas
+npm install react-router-dom
+
+
+o Router component vai realizar o gerenciamento das rotas
+para o / não atrapalhar as outras rotas, utilizamos o exact
+
+import link do react router dom
+transforma a linkagem da aplicação
+da maneira que ocorre em uma SPA
+
+
+ligando backend ao frontend
+depois de criar todas as pages e de setar o router e com o app funcionando
+
+instalando o client http
+
+npm install axios
+
+guardar cada uma das variáveis em um estado
+
+useEffect dispara a função em determinado momento do componente
+
+passamos pra ele uma função e uma array, sempre que elas mudam executa a função
+é recomendado colocar as variáveis utilizadas dentro do useffect como dependencia dentro do array
+
+class JS para formatação de datas INTL -> internacionalização
