@@ -15,7 +15,7 @@ Feito em Node, React e React Native
 
 - [X] Aula 3 - Construindo interface Web
       
-      Desenvolvimento front end em React
+      Desenvolvimento frontend em React
 
 - [ ] Aula 4 - Desenvolvimento do app mobile
 
