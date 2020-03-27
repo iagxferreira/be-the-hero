@@ -101,3 +101,7 @@ passando um objeto com os parametros por exemplo
 }
 
 sem parâmetros permite que todas as aplicações acessem a API
+
+instala as dependencias referenciadas no package.json
+(instalando na pasta nodemodules)
+npm install
