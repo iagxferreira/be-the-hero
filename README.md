@@ -19,4 +19,6 @@ Feito em Node, React e React Native
 
 - [ ] Aula 4 - Desenvolvimento do app mobile
 
+      almost..
+
 - [ ] Aula 5 - Funcionalidades Avançadas
