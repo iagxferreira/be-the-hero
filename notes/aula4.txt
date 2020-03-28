@@ -1,0 +1,30 @@
+instala o expo de maneira global (-g)
+npm install -g expo-cli
+
+executar
+expo -h
+para tirar algumas dúvidas
+
+
+caso exista problemas para instalar o expo-cli
+podemos talver utilziar o yarn
+yarn add expo-cli
+
+expo init <appname>
+
+em ultimo caso
+snack.expo.io
+
+para iniciar o app podemos rodar
+yarn start
+ou
+expo start
+
+dentro do react-native tudo são componentes
+a tag view pode ser usada como uma div
+
+as tags do react native não tem valor semantico
+
+verificar a documentação do expo
+recomendando utilizar o React Navigation
+verificar a instalação pelo repositorio do React Navigation
