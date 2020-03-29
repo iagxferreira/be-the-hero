@@ -19,6 +19,7 @@ Feito em Node, React e React Native
 
 - [ ] Aula 4 - Desenvolvimento do app mobile
 
-      almost..
+      Desenvolvimento do design da aplicação
+      Conexão com a API
 
 - [ ] Aula 5 - Funcionalidades Avançadas

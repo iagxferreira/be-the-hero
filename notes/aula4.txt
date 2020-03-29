@@ -28,3 +28,9 @@ as tags do react native não tem valor semantico
 verificar a documentação do expo
 recomendando utilizar o React Navigation
 verificar a instalação pelo repositorio do React Navigation
+
+
+yarn add expo-constants 
+
+
+parei em 1:06:00
