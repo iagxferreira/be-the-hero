@@ -10,7 +10,8 @@
 
 <h1 align='center'> Be the hero <h1>
 
-Projeto desenvolvido na Semana Omnistack 11 - Ministrado pela Rocketseat
+
+<p>Projeto desenvolvido na Semana Omnistack 11 - Ministrado pela Rocketseat
 O objetivo da semana era realizar uma aplicação que realizasse o serviço de cadastro de ongs
 e de casos para que as pessoas pudessem realizar doações para tais casos.
 
@@ -40,3 +41,4 @@ Feito utilizando [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), [E
       Conexão com a API
 
 - [ ] Aula 5 - Funcionalidades Avançadas
+<p>
