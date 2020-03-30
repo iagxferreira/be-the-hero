@@ -9,7 +9,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-<h1 align='center'> Be the hero <h1>
+<h1 align='center'> Be the hero </h1>
 
 
 <p> Projeto desenvolvido na Semana Omnistack 11 - Ministrado pela Rocketseat
