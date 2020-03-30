@@ -1,6 +1,8 @@
-<h4 align="center">
+<h1 align="center">
 <img src="https://github.com/iagxferreira/be-the-hero/blob/master/frontend/src/assets/heroes.png" width="250px" /><br>
-</h4>
+</h1>
+
+<h2 align='center'> Be the hero </h2>
 
 <p align="center">
   <a href="https://rocketseat.com.br">
@@ -8,9 +10,6 @@
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
-
-<h1 align='center'> Be the hero </h1>
-
 
 <p> Projeto desenvolvido na Semana Omnistack 11 - Ministrado pela Rocketseat
 O objetivo da semana era realizar uma aplicação que realizasse o serviço de cadastro de ongs
