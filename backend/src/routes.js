@@ -20,7 +20,7 @@ const routes = express.Router();
 */
 
 /*
-*Tiposde parâmetros
+*Tipos de parâmetros
 * 
 * Query paramns: parâmentros nomeados enviados na rota após o simbolo de interrogação
 *    servem pra filtros, paginação

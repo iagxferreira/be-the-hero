@@ -1,77 +1,109 @@
-import { StyleSheet } from 'react-native';
-import Constants from 'expo-constants';
+import { StyleSheet } from 'react-native'
+import Constants from 'expo-constants'
 
 export default StyleSheet.create({
-    container: {
-        flex: 1,
-        paddingHorizontal: 24,
-        paddingTop: Constants.statusBarHeight + 20,
-    },
+  detailsContainer: {
+    flex: 1,
+    paddingHorizontal: 24,
+    paddingTop: Constants.statusBarHeight + 20
+  },
 
-    header : {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center'
-    },  
+  headerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
 
-    incident : {
-        padding: 24,
-        borderRadius: 8,
-        backgroundColor: '#FFF',
-        marginBottom: 16,
-        marginTop: 48
-    },
+  headerButton: {
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
 
-    incidentProperty : {
-        fontSize: 14,
-        color: '#41414D',
-        fontWeight: 'bold',
-        marginTop: 24
-    },
+  headerButtonText: {
+    color: '#555',
+    fontWeight: 'bold',
+    marginLeft: 10
+  },
 
-    incidentValue : {
-        marginTop: 8,
-        fontSize: 15,
-        color: '#737380'
-    },
+  incident: {
+    padding: 24,
+    borderRadius: 5,
+    backgroundColor: '#FFF',
+    marginTop: 32,
+    marginBottom: 16
+  },
 
-    contactBox: {
-        padding: 24,
-        borderRadius: 8,
-        backgroundColor: '#FFF',
-        marginBottom: 16
-    },
+  incidentOng: {
+    fontSize: 18,
+    color: '#333',
+    fontWeight: 'bold'
+  },
 
-    heroTitle : {
-        fontWeight : 'bold',
-        fontSize: 20,
-        color: '#13131A',
-        lineHeight: 30
-    },  
+  incidentDescription: {
+    fontSize: 14,
+    color: '#404040',
+    marginVertical: 10,
+  },
 
-    heroDescription : {
-        fontSize: 15,
-        color: '#737380',
-        marginTop: 16
-    },
+  incidentValue: {
+    color: '#585858',
+  },
 
-    actions: {
-        marginTop: 16,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-    },
-    action : {
-        backgroundColor: '#E02041',
-        borderRadius: 8,
-        height: 50,
-        width: '48%',
-        alignItems: 'center',
-        justifyContent: 'center'
-    },
+  contact: {
+    padding: 24,
+    borderRadius: 5,
+    backgroundColor: '#FFF',
+    marginTop: 30,
+    marginBottom: 16
+  },
 
-    actionText : {
-        color: '#FFF',
-        fontSize: 15,
-        fontWeight: 'bold'
-    }
-});
+  heroTitle: {
+    fontWeight: 'bold',
+    fontSize: 18,
+    color: '#444'
+  },
+
+  heroDescription: {
+    fontSize: 16,
+    color: '#555',
+    marginVertical: 15
+  },
+  
+  contactButtons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+
+  buttonText: {
+    fontWeight: 'bold',
+    marginLeft: 10
+  },
+
+  buttonTextWhatsapp: {
+    color: '#E9FAEF',
+  },
+
+  buttonTextEmail: {
+    color: '#FBE8EC',
+  },
+
+  buttonWhatsapp: {
+    width: '48%',
+    height: 50,
+    borderRadius: 5,
+    backgroundColor: '#25D366',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+
+  buttonEmail: {
+    width: '48%',
+    height: 50,
+    borderRadius: 5,
+    backgroundColor: '#E02041',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+})
