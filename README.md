@@ -1,6 +1,7 @@
 <h4 align="center">
 <img src="https://github.com/iagxferreira/be-the-hero/blob/master/frontend/src/assets/heroes.png" width="250px" /><br>
 </h4>
+
 <p align="center">
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blue">
@@ -11,7 +12,7 @@
 <h1 align='center'> Be the hero <h1>
 
 
-<p>Projeto desenvolvido na Semana Omnistack 11 - Ministrado pela Rocketseat
+<p> Projeto desenvolvido na Semana Omnistack 11 - Ministrado pela Rocketseat
 O objetivo da semana era realizar uma aplicação que realizasse o serviço de cadastro de ongs
 e de casos para que as pessoas pudessem realizar doações para tais casos.
 
@@ -41,4 +42,4 @@ Feito utilizando [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), [E
       Conexão com a API
 
 - [ ] Aula 5 - Funcionalidades Avançadas
-<p>
+</p>
