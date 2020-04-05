@@ -51,7 +51,7 @@ def req(_type,controller):
 			x = requests.post(url, json=dados[f'{controller}'], headers=headers)
 		if controller == 'profile':
 			x = requests.post(url, headers=headers)
-		if controller == 'ong':
+		if controller == 'ongs':
 			x = requests.post(url, json=dados[f'{controller}'], headers=headers)
 		if controller == 'sessions':
 			x = requests.post(url, json=dados[f'{controller}'])

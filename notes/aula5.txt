@@ -1,0 +1,47 @@
+biblioteca celebrate pra fazer validações
+yarn add celebrate
+
+utilizar as validações de body, query e header
+
+TDD -> test-driven development
+desenvolvimento orientado a testes
+
+
+JEST -> Framework de testes
+yarn add jest 
+
+npx jest --init
+
+dois tipos de testes
+testes unitarios
+    testa um pedaço de nossa aplicação de forma isolada
+
+testes de integração
+    testa completamente uma rota de nossa aplicação
+
+depois de escrever os testes só rodar npm test
+
+gerar um banco de dados para realizar os testes
+
+yarn add cross-env
+
+supertest para testes em api
+
+yarn add supertest
+
+deploy backend 
+gratuito
+heroku
+
+pago
+digitalocean
+
+escalabilidade
+aws / azure
+
+
+estudar design patterns e padroes de código
+
+autenticação JWT
+
+estudar Styled Components
