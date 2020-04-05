@@ -40,5 +40,9 @@ Feito utilizando [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), [E
       Desenvolvimento do design da aplicação
       Conexão com a API
 
-- [ ] Aula 5 - Funcionalidades Avançadas
+- [x] Aula 5 - Funcionalidades Avançadas
+      
+      Adição de testes automatizados
+      Considerações sobre deploy
+      Adição de verificações
 </p>
